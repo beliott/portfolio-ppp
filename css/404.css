@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins";
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(180deg, #c0d9ff 0%, #ffffff 100%);
+  background-repeat: no-repeat;
+}
+
+/* ----------------------------header section---------------------- */
+/* li {
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 141px;
+  align-items: center;
+  margin: 0 3.25rem;
+}
+.header > div > ul {
+  display: flex;
+  justify-content: flex-start;
+}
+.header > div > ul > li > a > img {
+  height: 40px;
+  width: 40px;
+}
+.navbar > ul > li > a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  margin-right: 3.125rem;
+}
+.social_links > ul > li {
+  margin-left: 2.5rem;
+} */
+/* ----------------------------header section---------------------- */
+
+/* --------------------------main-------------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.oops {
+  color: #29292a;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 108px;
+}
+.fourZeroFour {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fourZeroFour > span {
+  margin: 0 4.5rem;
+  font-weight: 500;
+  font-size: 288px;
+  line-height: 20rem;
+  color: #2f2f2f;
+}
+.pnf {
+  color: #29292a;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 75px;
+}
+/* -------------- media queries ----------------- */
+
+@media (max-width: 926px) {
+  .oops {
+    font-size: 3.5rem;
+    /* line-height: 6rem; */
+  }
+  .fourZeroFour > span {
+    margin: 0 3.5rem;
+    font-size: 15rem;
+    /* line-height: 15rem; */
+  }
+  .pnf {
+    font-size: 2.5rem;
+    /* line-height: 4rem; */
+  }
+  .fourZeroFour > img {
+    height: 15rem;
+  }
+}
+@media (max-width: 796px) {
+  .oops {
+    font-size: 3rem;
+    /* line-height: 6rem; */
+  }
+  .fourZeroFour > span {
+    margin: 0 3rem;
+    font-size: 12rem;
+    /* line-height: 15rem; */
+  }
+  .pnf {
+    font-size: 2rem;
+    /* line-height: 4rem; */
+  }
+  .fourZeroFour > img {
+    height: 12rem;
+  }
+}
+@media (max-width: 636px) {
+  .fourZeroFour > span {
+    margin: 0 2rem;
+    font-size: 10rem;
+    /* line-height: 15rem; */
+  }
+
+  .fourZeroFour > img {
+    height: 10rem;
+  }
+}
+@media (max-width: 514px) {
+  .fourZeroFour > span {
+    margin: 0 1rem;
+    font-size: 10rem;
+    line-height: 14rem;
+  }
+
+  .fourZeroFour > img {
+    height: 10rem;
+  }
+}
+@media (max-width: 420px) {
+  .fourZeroFour > span {
+    /* margin: 0 0.5rem; */
+    font-size: 8rem;
+    line-height: 10rem;
+  }
+
+  .fourZeroFour > img {
+    height: 8rem;
+  }
+}

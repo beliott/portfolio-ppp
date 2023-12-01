@@ -1,0 +1,63 @@
+h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2F2F2F;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.container-fluid {
+  padding-left: 5rem;
+  padding-top: 4rem;
+  background: linear-gradient(180.35deg, #E2EDFF 0.83%, #FFFFFF 99.7%);
+}
+
+hr {
+  width: 20%;
+  border: 5px solid #4285F4;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #050505;
+}
+
+.blog-content {
+  padding-top: 3rem;
+}
+
+.footer-image {
+  width: 100%;
+}
+
+
+@media (max-width: 992px) {
+  .container-fluid{
+    padding-left: 1.5rem;
+  }
+
+  .blog-content{
+    padding: 3rem 0.75rem 0 1.5rem;
+  }
+
+  hr{
+    width: 40%;
+  }
+
+  .footer-image{
+    height: 2.2rem;
+  }
+}
